@@ -15,7 +15,7 @@ const InputBox = () => {
   // }
   
   const handleChange = (key,  e) => {
-    cont value = e.target.value;
+    const value = e.target.value ;
     setPayload({ ...payload, [key]: value });
   }
   // const add = () => {
